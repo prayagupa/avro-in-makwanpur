@@ -1,0 +1,9 @@
+{"namespace": "divinen.avro",
+ "type": "record",
+ "name": "Item",
+ "fields": [
+     {"name": "itemId", "type": "string"},
+     {"name": "availableQuantity",  "type": ["int"]},
+     {"name": "distributionCenterId", "type": ["string", "null"]}
+ ]
+}
